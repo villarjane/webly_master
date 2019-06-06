@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  
+  
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webly</title>
+</head>
+
+<body>
+
+        
+      <div class="row">
+        <div class="container">
+          <div class="col s12 m6 offset-m3">
+              <div class="card" id="carddesign">
+                  <div class="card-content">
+                    <h4  class="center">
+                    <a href="" class="brand-logo grey-text text-darken-3">Web<span class="white-text blue" style="border-radius:5px;"> ly </span></a>
+                    <span class="vert-div grey-text text-lighten-1">&nbsp;|</span>   
+                    </h4>
+                  <p class="center" id="login">Login</p>
+                  <div class="input-field">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="icon_prefix" type="text" class="validate">
+                          <label for="icon_prefix">Username/Email</label>
+                  </div>
+                  <div class="input-field">
+                          <i class="material-icons prefix">lock</i>
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Password</label>
+                  </div>
+                  <p class="left">
+                          &nbsp;<input type="checkbox" id="remember" class="filled-in"><label for="remember">Remember me</label>
+                  </p>
+                  <p class="right">
+                          <a href="#!">Forgot password?</a>
+                  </p><br><br>
+                  <p class="center">
+                          <input type="submit" value="Login" class="btn btn-large blue btn-extend waves-effect waves-light ">
+                  </p>
+                  <br>
+                  <p class="center" id="create"><a href="#" class="activator">Create Account</a></p>
+                  </div>
+                  <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4"><i class="material-icons">edit</i>Register<i class="material-icons right">close</i></span>
+                          <h4  class="center">
+                              <a href="" class="brand-logo grey-text text-darken-3">Web<span class="white-text blue" style="border-radius:5px;"> ly </span></a>
+                              <span class="vert-div grey-text text-lighten-1">&nbsp;|</span>   
+                          </h4>
+                          <p class="center">
+                              <a href="facebook.com" class="btn blue darken-2"><i class="fab fa-facebook"></i> Facebook</a>
+                              <a href="gmail.com" class="btn red darken-1"><i class="fab fa-google-plus"></i> GOOGLE</a>
+                          </p>
+                          <div class="input-field">
+                              <input type="text" id="username" class="validate">
+                              <label for="username">Username</label>
+                          </div>
+                          <div class="input-field">
+                              <input type="email" id="email" class="validate">
+                               <label data-error="Invalid" data-success="Valid" for="email">Email</label>
+                          </div>
+                          <div class="input-field">
+                              <input type="password" id="password" class="validate">
+                              <label for="password">Password</label>
+                          </div>
+                          <div class="input-field">
+                              <input type="password" id="conpassword" class="validate">
+                              <label for="confirm password">Confirm Password</label>
+                          </div>
+                          <p class="left">
+                              <input type="checkbox" id="terms" class="filled-in"><label for="terms">I have <span style="color:rgb(40, 157, 204);">read</span> and <span style="color:rgb(40, 157, 204);">agree</span>
+                                 to the <span style="text-decoration:underline;">Terms of Use</spanspan> & <span style="text-decoration:underline;">Privacy Policy</span></label>
+                          </p>
+                          <div class="center">
+                              <input type="submit" value="Signup" class="btn btn-large blue btn-extend waves-effect waves-light ">
+                          </div>
+                          
+                  </div>
+          </div>
+          </div>
+        </div>
+      </div>
+        
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+
+      $('.carousel.carousel-slider').carousel({ fullWidth: true});
+
+      $('.button-collapse').sideNav();
+
+      $('.modal').modal();
+
+    });
+  </script>
+</body>
+
+</html>

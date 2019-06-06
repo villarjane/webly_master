@@ -1,0 +1,26 @@
+body{
+  /* background-color: #4c85ff; */
+  background-image: radial-gradient(white, #4c85ff);
+
+  background-attachment: fixed;
+}
+
+#carddesign{
+  /* margin-left:35%;
+  margin-right:35%;
+  margin-top:5%; */
+  border-radius:5px;
+  background-color:white;
+  margin-top:15%;
+}
+
+#create{
+text-decoration: underline;
+}
+
+#login{
+  
+  margin-right:-24.5px;
+  margin-left:-24.5px;
+  font-size:50px;
+}
